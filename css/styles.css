@@ -1,0 +1,181 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 900;
+}
+
+/* Headings */
+
+.text-title{
+  font-size: 3.4rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+h3{
+  font-size: 1.2rem;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #f8f9fa;
+}
+
+.white-section{
+  background-color: white;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.img-phone{
+  width: 60%;
+  position: absolute;
+  transform: rotate(20deg);
+  right: 30%;
+}
+
+/* Navbar Section */
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2.5rem;
+  padding-left: 0;
+}
+
+.navbar{
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 0 3.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+#features{
+  position: relative;
+}
+
+.feature-box{
+  margin: 60px 0;
+}
+
+.features-icon{
+  color: #ef8172;
+  margin: 0 0 10px 0;
+}
+
+.features-icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+  position: relative;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 5px;
+}
+
+.pricing-col{
+  margin: 3% 0;
+}
+
+/* CTA Section */
+
+#cta > h3{
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 2%;
+}
+
+.btn-cta{
+  font-size: 1rem;
+  margin: 5% 1% 3%;
+}
+
+/* Footer Section */
+
+.socialmidia {
+  color: black;
+  margin: 4% 1% 2%;
+}
+
+@media (max-width: 991px){
+  #title .container-fluid{
+    text-align: center;
+  }
+
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title > div{
+    max-width: 100vw;
+  }
+
+  .img-phone{
+    width: 60%;
+    position: static;
+    max-width: none;
+    transform: rotate(0);
+    padding: 10% 0 0;
+  }
+}
